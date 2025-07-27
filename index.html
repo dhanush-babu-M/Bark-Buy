@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhanush's Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+<header>
+  <div class="brand">Portfolio</div>
+  <nav>
+    <a href="#landing">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="themeToggle" class="theme-toggle" title="Toggle Light/Dark Mode">🌙</button>
+</header>
+
+<section class="hero" id="landing">
+  <h1>Dhanush Babu Mamuduru</h1>
+  <h2>I'm <span id="typed-role" class="typed-text"></span></h2>
+  <p>Building impactful web experiences that inspire and engage.</p>
+
+  <div class="hero-buttons">
+    <a class="btn" href="#contact">Get in Touch</a>
+    <a class="btn" href="#projects">View My Work</a>
+  </div>
+
+  <div class="scroll-down" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })"></div>
+</section>
+
+<section class="welcome" id="welcome">
+  <h2>Welcome</h2>
+  <p>
+    I'm glad you're here! This portfolio showcases my journey, skills, and dedication as a software developer.
+    Scroll down to explore more about me.
+  </p>
+
+  <div class="welcome-buttons">
+    <a href="./Images/DHANUSH BABU.pdf" target="_blank" rel="noopener noreferrer" class="btn resume-btn">
+      <span>&#128190;</span> View Resume
+    </a>
+
+    <a href="mailto:mamudurudhanush6@gmail.com" class="btn contact-btn">
+      <span>&#9993;</span> Contact Me
+    </a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <img src="./Images/photo.png" alt="Dhanush Babu" class="profile-pic" />
+  
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm **Dhanush Babu Mamuduru**, a dedicated and enthusiastic software developer with a background in Electronics and Communication Engineering. I specialize in building modern, responsive, and user-friendly web interfaces that blend functionality with design. I’m passionate about clean code, continuous learning, and crafting solutions that make a real-world impact.
+    </p>
+  </div>
+</section>
+
+<section class="education" id="education">
+  <h2 class="section-title">🎓 Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-icon">📘</div>
+      <div class="timeline-content">
+        <div class="edu-header">
+          <img src="./Images/college logo.jpg" alt="SVCE Logo" class="edu-logo" />
+          <div class="edu-text">
+            <h3>B.E. in Electronics and Communication Engineering</h3>
+            <p class="institute">Sri Venkateswara College of Engineering</p>
+            <p class="university">Affiliated to JNTU Anantapur</p>
+          </div>
+        </div>
+        <p class="duration">2020 – 2024</p>
+        <p class="details">
+          Graduated with technical exposure in embedded systems, wireless communication, and networking.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon">📗</div>
+      <div class="timeline-content">
+        <div class="edu-header">
+          <img src="./Images/Narayana Logo.png" alt="Narayana Logo" class="edu-logo" />
+          <div class="edu-text">
+            <h3>Intermediate (MPC)</h3>
+            <p class="institute">Narayana Junior College, Nellore</p>
+            <p class="university">Board of Intermediate Education, AP</p>
+          </div>
+        </div>
+        <p class="duration">2018 – 2020</p>
+        <p class="details">
+          Focused on Physics, Mathematics & Chemistry. Developed logical thinking and discipline.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon">📙</div>
+      <div class="timeline-content">
+        <div class="edu-header">
+          <img src="./Images/Narayana Logo.png" alt="Narayana School Logo" class="edu-logo" />
+          <div class="edu-text">
+            <h3>Schooling</h3>
+            <p class="institute">Narayana English Medium High School, Nellore</p>
+            <p class="university">SSC Board, Andhra Pradesh</p>
+          </div>
+        </div>
+        <p class="duration">Up to 2018</p>
+        <p class="details">
+          Built strong academic habits and foundational knowledge in science and language subjects.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <h2 class="section-title">My Skills</h2>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-code"></i> Technical Skills</h3>
+    <div class="skills-glass-grid">
+      <div class="glass-card">
+        <span class="skill-name">HTML</span>
+        <div class="skill-rating">
+          <div class="rating-bar" style="width: 95%"></div>
+        </div>
+      </div>
+      <div class="glass-card">
+        <span class="skill-name">CSS</span>
+        <div class="skill-rating">
+          <div class="rating-bar" style="width: 90%"></div>
+        </div>
+      </div>
+      <div class="glass-card">
+        <span class="skill-name">JavaScript</span>
+        <div class="skill-rating">
+          <div class="rating-bar" style="width: 85%"></div>
+        </div>
+      </div>
+      <div class="glass-card">
+        <span class="skill-name">Python</span>
+        <div class="skill-rating">
+          <div class="rating-bar" style="width: 80%"></div>
+        </div>
+      </div>
+      <div class="glass-card">
+        <span class="skill-name">Java</span>
+        <div class="skill-rating">
+          <div class="rating-bar" style="width: 75%"></div>
+        </div>
+      </div>
+      <div class="glass-card">
+        <span class="skill-name">SQL</span>
+        <div class="skill-rating">
+          <div class="rating-bar" style="width: 70%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-brain"></i> Soft Skills</h3>
+    <div class="skills-glass-grid soft-skill-grid">
+      <div class="glass-card soft">Problem Solving</div>
+      <div class="glass-card soft">Teamwork</div>
+      <div class="glass-card soft">Adaptability</div>
+      <div class="glass-card soft">Communication</div>
+      <div class="glass-card soft">Leadership</div>
+      <div class="glass-card soft">Creativity</div>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="project-category">
+    <h3><i class="fa-solid fa-desktop"></i> Static Web Pages</h3>
+    <div class="project-grid">
+      <div class="project-card">
+        <h4>Netflix Clone</h4>
+        <p>Designed a static clone of Netflix using HTML and CSS, mimicking the original layout and UI elements.</p>
+      </div>
+      <div class="project-card">
+        <h4>Food Website</h4>
+        <p>Created a stylish static food ordering website with menu, hero section, and clean design elements.</p>
+      </div>
+      <div class="project-card">
+        <h4>Biryani By Kilo Clone</h4>
+        <p>Front-end clone of the BBK site showcasing my ability to replicate brand UIs from scratch.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-category">
+    <h3><i class="fa-solid fa-mobile-screen"></i> Responsive Web Pages</h3>
+    <div class="project-grid">
+      <div class="project-card">
+        <h4>Shopping Website</h4>
+        <p>A fully responsive e-commerce UI layout built using HTML, CSS, and media queries for mobile-first design.</p>
+      </div>
+      <div class="project-card">
+        <h4>Modern Portfolio</h4>
+        <p>This portfolio website is fully responsive, showcasing animation, layout adaptation, and design consistency.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEW PROJECT CATEGORY: Embedded Systems Projects -->
+  <div class="project-category">
+    <h3><i class="fa-solid fa-microchip"></i> Embedded Systems Projects</h3>
+    <div class="project-grid">
+      <div class="project-card main-project">
+        <h4>Vehicle Accident Detection using GPS and GSM Module</h4>
+        <p>Developed an embedded system for real-time vehicle accident detection. Utilized GPS for location tracking and GSM module to send immediate SMS alerts to emergency contacts with accident coordinates. Focused on rapid response and critical data transmission for safety.</p>
+      </div>
+    </div>
+  </div>
+  <!-- END NEW PROJECT CATEGORY -->
+
+</section>
+
+<section class="certifications" id="certificates">
+  <h2 class="section-title">Certifications</h2>
+
+  <div class="cert-grid">
+
+    <div class="cert-card">
+      <div class="cert-icon"><i class="fas fa-award"></i></div>
+      <h3>Excellence in PCB Workshop</h3>
+      <p>Awarded for outstanding performance and hands-on expertise in a circuit board workshop program.</p>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon"><i class="fas fa-award"></i></div>
+      <h3>Paper Presentation – Techyuha 2K23</h3>
+      <p>Presented a technical paper at NBKR Institute of Science and Technology during the Techyuha 2K23 symposium.</p>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon"><i class="fas fa-award"></i></div>
+      <h3>National Service Scheme (NSS)</h3>
+      <p>Recognized for participation in essay writing and social service activities organized by the college NSS cell.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="experience" id="experience">
+  <h2 class="section-title">Experience</h2>
+
+  <div class="experience-card">
+    <div class="exp-icon"><i class="fas fa-robot"></i></div>
+    <h3>Intern – Artificial Intelligence</h3>
+    <p class="company">Edu-Station</p>
+    <p class="duration">Duration: 2 Months</p>
+    <p class="details">
+      Developed a basic AI chatbot using Natural Language Processing (NLP) concepts.
+      Gained hands-on experience with ML pipelines, model training, and Python libraries like scikit-learn and NLTK.
+    </p>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="section-title">Let's Connect</h2>
+  <p class="section-quote">“Let’s build something impactful together. I’m just a message away.”</p>
+  <div class="contact-wrapper">
+
+    <div class="contact-info">
+      <h3>Connect with Me</h3>
+      <p>If you’re interested in collaborating or just want to say hi, feel free to reach out through any of the platforms below.</p>
+      
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/dhanush-babu-mamuduru-3863a2276" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/dhanush-babu-M" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:mamudurudhanush6@gmail.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.instagram.com/mrjack7912/" target="_blank" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-title">
+        <i class="fas fa-paper-plane"></i> Send Me a Message
+      </div>
+
+      <div class="form-group">
+        <input type="text" name="name" required placeholder=" " />
+        <label>Your Name</label>
+      </div>
+
+      <div class="form-group">
+        <input type="email" name="email" required placeholder=" " />
+        <label>Your Email</label>
+      </div>
+
+      <div class="form-group">
+        <textarea name="message" rows="5" required placeholder=" "></textarea>
+        <label>Your Message</label>
+      </div>
+
+      <button type="submit" class="submit-btn">Send Message 🚀</button>
+    </form>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p><i class="fas fa-laptop-code"></i> Made with 💻 & passion by <a href="#landing" class="footer-name">Dhanush Babu Mamuduru</a></p>
+    <p>&copy; <span id="footer-year"></span> All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  // Toggle Theme
+  const toggleBtn = document.getElementById('themeToggle');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('light-theme');
+      toggleBtn.textContent = document.body.classList.contains('light-theme') ? '☀️' : '🌙';
+    });
+  }
+
+  // Set Footer Year
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const typed = new Typed('#typed-role', {
+      strings: [
+        'Creative Thinker',
+        'Aspiring Software Developer',
+        'Full Stack Developer'
+      ],
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 1500,
+      startDelay: 500,
+      loop: true,
+      showCursor: true,
+      cursorChar: '|'
+    });
+
+    // JavaScript for shaking arrow on Home click
+    const homeNavLink = document.querySelector('nav a[href="#landing"]');
+    const scrollDownArrow = document.querySelector('.scroll-down');
+
+    if (homeNavLink && scrollDownArrow) {
+      homeNavLink.addEventListener('click', (event) => {
+        // Add the shake class
+        scrollDownArrow.classList.add('shake');
+
+        // Remove the shake class after the animation ends
+        scrollDownArrow.addEventListener('animationend', () => {
+          scrollDownArrow.classList.remove('shake');
+        }, { once: true });
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
