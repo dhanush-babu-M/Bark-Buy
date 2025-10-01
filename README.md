@@ -1,21 +1,27 @@
 🐾 Bark & Buy – Online Pet Store
-A frontend e-commerce style pet store built with HTML, CSS, and JavaScript. This project was created to strengthen frontend fundamentals by simulating a real-world online shopping experience.
+
+A frontend e-commerce style pet store built with HTML, CSS, and JavaScript.
+This project was created to strengthen frontend fundamentals by simulating a real-world online shopping experience.
 
 🚀 Live Demo
+
 You can view and interact with the live project here:
 
 ➡️ barkandbuy.netlify.app
 
 🌟 Why This Project?
-I chose this project because e-commerce websites are common in the industry and provide practical learning opportunities. Building an online pet store was simple, relatable, and allowed me to practice:
 
-HTML → for semantic structure
+I chose this project because e-commerce websites are common in the industry and provide practical learning opportunities.
+Building an online pet store was simple, relatable, and allowed me to practice:
 
-CSS → for design & responsiveness
+HTML → Semantic structure
 
-JavaScript → for interactivity (validation & filtering)
+CSS → Design & responsiveness
+
+JavaScript → Interactivity (validation & filtering)
 
 🛠️ Tech Stack
+
 HTML5 – Semantic structure (<header>, <nav>, <section>, <footer>)
 
 CSS3 – Flexbox, Grid, Media Queries for responsive layouts
@@ -23,6 +29,7 @@ CSS3 – Flexbox, Grid, Media Queries for responsive layouts
 JavaScript (ES6) – DOM manipulation, event handling, form validation, filtering
 
 📌 Features
+
 🧭 Navigation bar for browsing
 
 🐕 Product display grid with filtering options (₹0–10, ₹0–50)
@@ -35,14 +42,13 @@ JavaScript (ES6) – DOM manipulation, event handling, form validation, filterin
 
 🚀 Key Implementation Details
 🔍 Price Filtering
+
 Each product has a custom attribute data-price:
 
-HTML
-
 <div class="product" data-price="25">Dog Food</div>
-In JavaScript, filtering is handled with:
 
-JavaScript
+
+In JavaScript, filtering is handled with:
 
 document.querySelectorAll('.product').forEach(product => {
     const price = parseInt(product.getAttribute('data-price'));
@@ -52,10 +58,13 @@ document.querySelectorAll('.product').forEach(product => {
         product.style.display = "none";
     }
 });
+
+
 ✅ This makes filtering dynamic without page reload.
 
 📧 Contact Form Validation
-Added event listeners to check required fields.
+
+Added event listeners to check required fields
 
 Validates:
 
@@ -63,19 +72,21 @@ Email format (regex)
 
 Name & message not empty
 
-Shows error messages for invalid input → prevents incorrect submissions.
+Shows error messages for invalid input → prevents incorrect submissions
 
 📱 Responsiveness
-Used Flexbox & CSS Grid for layouts.
 
-Applied media queries to adapt navigation, grids, and font sizes for mobile devices.
+Used Flexbox & CSS Grid for layouts
+
+Applied media queries to adapt navigation, grids, and font sizes for mobile devices
 
 🧠 Challenges Faced
-Making the website responsive across devices.
 
-Implementing JavaScript form validation correctly.
+Making the website responsive across devices
 
-Both challenges improved my problem-solving skills with layouts & DOM manipulation.
+Implementing JavaScript form validation correctly
+
+Both challenges improved my problem-solving skills with layouts & DOM manipulation
 
 📈 Scalability & Improvements
 Scalability – If products grow into thousands:
@@ -86,7 +97,7 @@ Fetch dynamically via APIs
 
 Use caching for performance
 
-Making it Industry-Ready
+Making it Industry-Ready:
 
 Add a backend (Node.js / Java + MySQL)
 
@@ -97,6 +108,7 @@ Optimize frontend (minify CSS/JS, optimize images)
 Ensure security (input sanitization) & cross-browser support
 
 🎯 Learning Outcomes
+
 Stronger grasp of frontend fundamentals
 
 Hands-on practice with responsive design
