@@ -6,7 +6,7 @@ A **frontend e-commerce style pet store** built with **HTML, CSS, and JavaScript
 
 You can view and interact with the live project here:
 
-➡️ barkandbuy.netlify.app
+➡️ barkandbuy.netlify.app 
 ---
 
 ## 🌟 Why This Project?
