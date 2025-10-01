@@ -1,4 +1,48 @@
-🐾 Bark & Buy – Online Pet Store
+# 🐾 Bark & Buy – Online Pet Store
+
+A **frontend e-commerce style pet store** built with **HTML, CSS, and JavaScript**. This project was created to strengthen frontend fundamentals by simulating a **real-world online shopping experience**.
+
+---
+
+
+
+## 🌟 Why This Project?
+
+I chose this project because **e-commerce websites are common in the industry** and provide practical learning opportunities. Building an online pet store was simple, relatable, and allowed me to practice:
+
+-   **HTML** → for semantic structure
+-   **CSS** → for design & responsiveness
+-   **JavaScript** → for interactivity (validation & filtering)
+
+---
+
+## 🛠️ Tech Stack
+
+-   **HTML5** – Semantic structure (`<header>`, `<nav>`, `<section>`, `<footer>`)
+-   **CSS3** – Flexbox, Grid, Media Queries for responsive layouts
+-   **JavaScript (ES6)** – DOM manipulation, event handling, form validation, filtering
+
+---
+
+## 📌 Features
+
+-   🧭 **Navigation bar** for browsing
+-   🐕 **Product display grid** with filtering options (₹0–10, ₹0–50)
+-   📝 **Contact form** with JavaScript validation
+-   ⭐ **Review/Feedback option**
+-   📱 **Responsive design** (Flexbox + Grid + Media Queries)
+
+---
+
+## 🚀 Key Implementation Details
+
+### 🔍 Price Filtering
+
+-   Each product has a **custom attribute** `data-price`:
+    ```html
+    <div class="product" data-price="25">Dog Food</div>
+    ```
+-   In **JavaScript**, filtering is handled🐾 Bark & Buy – Online Pet Store
 
 A frontend e-commerce style pet store built with HTML, CSS, and JavaScript.
 This project was created to strengthen frontend fundamentals by simulating a real-world online shopping experience.
